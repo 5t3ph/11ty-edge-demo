@@ -1,0 +1,25 @@
+{
+  "name": "11ty-edge-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5t3ph/11ty-edge-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5t3ph/11ty-edge-demo/issues"
+  },
+  "homepage": "https://github.com/5t3ph/11ty-edge-demo#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.11",
+    "netlify-cli": "^10.3.3"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Edge</title>
+  <style>
+    body {
+      font-family: system-ui;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello Edge</h1>
+
+  <p>Static meta: {{ meta.siteName }}</p>
+
+  {% edge %}
+  <p>{{ hello }}</p>
+  <p>{{ hello2 }}</p>
+  <p>Edge meta: {{ meta.siteName }}</p>
+  {% endedge %}
+</body>
+</html>
