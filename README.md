@@ -9,7 +9,7 @@
 - [11ty Edge Examples](https://demo-eleventy-edge.netlify.app/)
 - [Using NPM modules with Deno](https://deno.land/manual/node/cdns)
 - [11ty Edge Search](https://github.com/11ty/eleventy-base-blog/compare/demo-edge-search)
--
+- Demo by @BenDMyers - [Eleventy Edge Wordle](https://github.com/BenDMyers/eleventy-edge-wordle)
 
 ## Edge Tips & Gotchas
 
